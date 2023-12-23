@@ -1,0 +1,4 @@
+2023/12/20 03:43:49 [error] 2#0: *1 "/usr/share/nginx/html/public/index.html" is not found (2: No such file or directory), client: 10.88.0.27, server: _, request: "GET / HTTP/1.1", host: "10.0.0.220:8080"
+2023/12/20 03:43:49 [error] 2#0: *1 open() "/usr/share/nginx/html/public/404.html" failed (2: No such file or directory), client: 10.88.0.27, server: _, request: "GET / HTTP/1.1", host: "10.0.0.220:8080"
+2023/12/20 03:43:49 [error] 2#0: *1 open() "/usr/share/nginx/html/public/favicon.ico" failed (2: No such file or directory), client: 10.88.0.27, server: _, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.220:8080", referrer: "http://10.0.0.220:8080/"
+2023/12/20 03:43:49 [error] 2#0: *1 open() "/usr/share/nginx/html/public/404.html" failed (2: No such file or directory), client: 10.88.0.27, server: _, request: "GET /favicon.ico HTTP/1.1", host: "10.0.0.220:8080", referrer: "http://10.0.0.220:8080/"

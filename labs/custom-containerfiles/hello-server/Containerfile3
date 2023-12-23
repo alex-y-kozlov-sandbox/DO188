@@ -1,0 +1,11 @@
+FROM registry.access.redhat.com/ubi8/ubi
+
+WORKDIR /tmp/hello-server
+
+COPY . .
+
+RUN dnf module enable -y nodejs:16 && \
+    dnf install -y nodejs && \
+    npm install
+
+CMD npm start

@@ -1,8 +1,8 @@
-FROM registry.access.redhat.com/ubi8/nodejs-16
+FROM registry.access.redhat.com/ubi8/nodejs-16:1
 
-LABEL org.opencontainers.image.authors="Juan vdB"
+LABEL org.opencontainers.image.authors="YK"
 LABEL com.example.environment="production"
-LABEL com.example.version="0.0.1"
+LABEL com.example.version="4.0.0"
 
 ENV SERVER_PORT=3000
 ENV NODE_ENV="production"
@@ -16,4 +16,3 @@ COPY . .
 RUN npm install
 
 CMD npm start
-

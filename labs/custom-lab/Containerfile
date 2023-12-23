@@ -1,4 +1,5 @@
 FROM registry.ocp4.example.com:8443/redhattraining/podman-certificate-generator as certs
+
 RUN ./gen_certificates.sh 
 
 
